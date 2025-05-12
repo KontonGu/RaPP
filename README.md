@@ -1,6 +1,6 @@
 # RaPP: Fine-grained GPU **R**esource-**a**ware **P**erformance **P**rediction for Deep Learning Inference
 ![](./figures/rapp.png)
-Fine-grained GPU resource allocation with any granularity introduces massive configuration spaces and performance uncertainty. For example, a deep learning model with 4 batch sizes, 10 quotas, and 10 SM partition configurations brings 400 distinct configuration possibilities and performance outcomes. **Resource-aware Performance Prediction (RaPP)** model is designed to predict inference latency for arbitrary batch sizes under any spatio-temporal GPU resource configurations. It comprises two main components: feature extraction and the GNN-based predictor.
+Fine-grained GPU resource allocation with any granularity introduces massive configuration spaces and performance uncertainty. For example, a deep learning model with 4 batch sizes, 10 quotas, and 10 SM partition configurations brings 400 distinct configuration possibilities and performance outcomes. **Resource-aware Performance Prediction (RaPP)** model is designed to predict inference latency for arbitrary batch sizes under any spatio-temporal GPU resource configurations to resolve inference performance uncertainty introduced by massive resource configuration spaces. It comprises two main components: feature extraction and the GNN-based predictor.
 
 ---
 ### Deployment (QuickStart)
