@@ -1,0 +1,29 @@
+{
+    "model_name": "efficientnet_b7",
+    "profiling_result": [
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 100,
+            "latency": 45.7755454381307
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 100,
+            "latency": 88.79173914591472
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 100,
+            "latency": 166.81065718332925
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 100,
+            "latency": 322.98728942871094
+        }
+    ]
+}

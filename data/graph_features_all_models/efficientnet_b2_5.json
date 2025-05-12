@@ -1,0 +1,245 @@
+{
+    "model_name": "efficientnet_b2",
+    "profiling_result": [
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 10,
+            "latency": 538.3632564544678
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 20,
+            "latency": 181.7344307899475
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 30,
+            "latency": 115.18207788467407
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 40,
+            "latency": 83.21121454238892
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 50,
+            "latency": 58.917908668518066
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 60,
+            "latency": 36.89577579498291
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 70,
+            "latency": 26.955652236938477
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 80,
+            "latency": 22.75320529937744
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 90,
+            "latency": 17.278223037719727
+        },
+        {
+            "batch": 1,
+            "sm": 5,
+            "quota": 100,
+            "latency": 17.976233959197998
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 10,
+            "latency": 546.6834115982056
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 20,
+            "latency": 185.58796167373657
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 30,
+            "latency": 116.88004732131958
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 40,
+            "latency": 88.79033088684082
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 50,
+            "latency": 57.594335079193115
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 60,
+            "latency": 30.902540683746338
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 70,
+            "latency": 27.693026065826416
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 80,
+            "latency": 22.124478816986084
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 90,
+            "latency": 20.72288751602173
+        },
+        {
+            "batch": 2,
+            "sm": 5,
+            "quota": 100,
+            "latency": 18.894352912902832
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 10,
+            "latency": 548.6923432350159
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 20,
+            "latency": 185.51021337509155
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 30,
+            "latency": 116.03310346603394
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 40,
+            "latency": 82.25205659866333
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 50,
+            "latency": 58.503334522247314
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 60,
+            "latency": 35.48250436782837
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 70,
+            "latency": 33.697593212127686
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 80,
+            "latency": 33.541810512542725
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 90,
+            "latency": 33.10946226119995
+        },
+        {
+            "batch": 4,
+            "sm": 5,
+            "quota": 100,
+            "latency": 33.1097149848938
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 10,
+            "latency": 549.9908137321472
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 20,
+            "latency": 186.9834852218628
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 30,
+            "latency": 117.21734046936035
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 40,
+            "latency": 72.97135829925537
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 50,
+            "latency": 61.41458988189697
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 60,
+            "latency": 61.20727300643921
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 70,
+            "latency": 61.3066840171814
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 80,
+            "latency": 61.34157180786133
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 90,
+            "latency": 61.1761736869812
+        },
+        {
+            "batch": 8,
+            "sm": 5,
+            "quota": 100,
+            "latency": 61.30841016769409
+        }
+    ]
+}
