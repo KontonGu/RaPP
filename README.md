@@ -25,7 +25,7 @@ The script `client.py` include the `model_name`, `batch_size`, `quota`, and `sm`
 
 ---
 ### Datasets
-The dataset contains 53400 data samples (stored in Google Drive [model_dataset.zip](https://drive.google.com/file/d/1I-uFOYz8GKmbzhRm_GotFv1CLB5HRFEG/view?usp=sharing)). 42720 samples as the training set, 5340 samples as the validation set, and 5340 samples as the test set. Please download the dataset and unzip in the `./data` folder.
+The dataset contains `53400` data samples (stored in Google Drive [model_dataset.zip](https://drive.google.com/file/d/1I-uFOYz8GKmbzhRm_GotFv1CLB5HRFEG/view?usp=sharing)). `42720` samples as the training set, `5340` samples as the validation set, and `5340` samples as the test set. Please download the dataset and unzip in the `./data` folder.
 ```
 $ cd data
 $ pip install gdown zip
