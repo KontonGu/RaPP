@@ -40,7 +40,15 @@ $ python3 train.py
 ```
 ---
 ### Result
-The experimental results are stored in `./result`. The best-performing model after training is `epoch=183-step=8351760.ckpt`, which corresponds to a validation MAPE (Mean Absolute Percentage Error) of `0.44647` (i.e., the result at epoch 183). For unseen configurations, the corresponding MAPE is `0.47020`, corresponding to the model's performance on the final test set.
+The experimental results are stored in `./result`. 
+
+#### 1. Model Performance with Fine-grained Resource Allocation
+Figure 4 illustrates the inference latency of ResNet-152 under different batch sizes, SM partitions, and quota allocations. The results validate the effectiveness of HAS-GPU’s fine-grained spatio-temporal resource allocation. The result data is stored in the folder `./result/resnet152`.
+![](./figures/fine_grained_allocation.png)
+
+
+#### 2. Resource-aware Performance Prediction Analysis
+The best-performing model after training is `epoch=183-step=8351760.ckpt`, which corresponds to a validation MAPE (Mean Absolute Percentage Error) of `0.44647` (i.e., the result at epoch 183). For unseen configurations, the corresponding MAPE is `0.47020`, corresponding to the model's performance on the final test set.
 
 To evaluate the model's generalization ability on unseen deep learning applications, we excluded certain models from the training set and retrained the model. Evaluation was then conducted using `only_test.py` under the `./infer` directory, showing the MAPE of `0.052850`. 
 
