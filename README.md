@@ -16,16 +16,16 @@ Start the inference server:
 $ cd server
 $ python3 server.py
 ```
-Predict deep learning performance under spatio-temporal GPU resource allocation:
+Predict deep learning performance under spatio-temporal GPU resource allocation (a new terminal):
 ```
-$ cd ../client
+$ cd client
 $ python3 client.py  
 ```
-The script `client.py` include the `model_name`, `batch_size`, `quota`, and `sm` as input for the RaPP latency prediction model. Currently the supported models are listed in the folder `./server/model_features_all_models`.
+The script `client.py` takes `model_name`, `batch_size`, `quota`, and `sm` as inputs for the RaPP latency prediction model. The currently supported models are listed in the `./server/model_features_all_models` folder.
 
 ---
 ### Datasets
-The dataset contains `53400` data samples (stored in Google Drive [model_dataset.zip](https://drive.google.com/file/d/1I-uFOYz8GKmbzhRm_GotFv1CLB5HRFEG/view?usp=sharing)). `42720` samples as the training set, `5340` samples as the validation set, and `5340` samples as the test set. Please download the dataset and unzip in the `./data` folder.
+The dataset contains `53400` data samples (stored in Google Drive [model_dataset.zip](https://drive.google.com/file/d/1I-uFOYz8GKmbzhRm_GotFv1CLB5HRFEG/view?usp=sharing)). `42720` samples as the training set, `5340` samples as the validation set, and `5340` samples as the test set. Please download the dataset and unzip it into the `./data` folder.
 ```
 $ cd data
 $ pip install gdown zip
