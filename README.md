@@ -136,7 +136,7 @@ $ python3 model_features_generate.py
 
 ---
 ### License
-Copyright 2024 FaST-GShare Authors, KontonGu (**Jianfeng Gu**), et. al.
+Copyright 2024 HAS-GPU Authors, KontonGu (**Jianfeng Gu**), et. al.
 @Techinical University of Munich, **CAPS Cloud Team**
 
 Licensed under the Apache License, Version 2.0 (the "License");
